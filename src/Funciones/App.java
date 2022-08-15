@@ -1,3 +1,4 @@
+package Funciones;
 /*Primera parte:
 Crear una función con tres parámetros que sean números que se suman entre sí.
 Llamar a la función en el main y darle valores.
@@ -12,19 +13,19 @@ Mostrar el número de puertas que tiene el objeto.
 
 public class App {
 
-  public static void main(String[] args) throws Exception {
-    //int resultado = suma(10, 20, 15);
-    //System.out.println(resultado);
-    Coche miCoche = new Coche();
-    miCoche.SumaPuerta();
-    miCoche.SumaPuerta();
-    miCoche.SumaPuerta();
+  // public static void main(String[] args) throws Exception {
+  //   //int resultado = suma(10, 20, 15);
+  //   //System.out.println(resultado);
+  //   Coche miCoche = new Coche();
+  //   miCoche.SumaPuerta();
+  //   miCoche.SumaPuerta();
+  //   miCoche.SumaPuerta();
 
-    System.out.println(miCoche.numeroPuertas);
-  }
+  //   System.out.println(miCoche.numeroPuertas);
+  // }
   /*  public static int suma(int num1, int num2, int num3) {
     return num1 + num2 + num3;
-  }*/
+  
 }
 
 class Coche {
@@ -34,4 +35,5 @@ class Coche {
   public void SumaPuerta() {
     this.numeroPuertas++;
   }
+  }*/
 }

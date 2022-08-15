@@ -1,6 +1,8 @@
-public class App_Ej4 {
+package SentenciasControl;
 
-  public static void main(String[] args) throws Exception {
+//public class App_Ej4 {
+
+  // public static void main(String[] args) throws Exception {
     /*
     En este ejercicio practicarás las estructuras de control, para ello deberás crear:
     Usando un if, crear una condición que compare si la variable numeroIf es positivo, negativo, o 0.
@@ -54,7 +56,7 @@ Por último, para el Switch, deberás crear la variable estacion, y distintos ca
 Dependiendo del valor de la variable estacion se deberá mandar un mensaje por consola informando de la estación en la que está. 
 También habrá que poner un default para cuando el valor de la variable no sea una estación.
 ------------------
-*/
+
     int estacion = 5;
     String nroEstacion;
     switch (estacion) {
@@ -76,4 +78,6 @@ También habrá que poner un default para cuando el valor de la variable no sea 
     }
     System.out.println(nroEstacion);
   }
+
 }
+*/

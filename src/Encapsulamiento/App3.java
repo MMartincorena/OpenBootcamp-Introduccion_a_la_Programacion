@@ -44,7 +44,7 @@ class Persona {
     return edad;
   }
 
-  public void setEdad(int edad) {
+  public void setEdad(int edad ) {
     this.edad = edad;
   }
 

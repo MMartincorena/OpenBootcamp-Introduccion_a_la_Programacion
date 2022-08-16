@@ -16,44 +16,39 @@ package Herencia_Polimorfismo_Interfaces;
 public class App_Ej6 {
 
   public static void main(String[] args) throws Exception {
-    Cliente cliente1 = new Cliente(credito, edad, nombre, telefono);
-    cliente1.setCredito(15000);
-    
 
+    Cliente cliente = new Cliente();
 
+    Trabajador trabajador = new Trabajador();
+
+    cliente.nombre = "Martin";
+    cliente.edad = 30;
+    cliente.telefono = 123456789;
+    cliente.credito = 15000;
+    System.out.println("Nombre: " + cliente.nombre + ", Edad: " + cliente.edad + " años, Telefono: " + cliente.telefono + " Credito: " + cliente.credito );
+
+    trabajador.nombre = "Marcelo"; 
+    trabajador.edad = 32;
+    trabajador.telefono = 12457845;
+    trabajador.salario = 18000;
+    System.out.println("Nombre: " + trabajador.nombre + ", Edad: " + trabajador.edad + " años, Telefono: " + trabajador.telefono + " Credito: " + trabajador.salario);
   }
-
+}
   class Persona {
 
-    private int edad;
-    private String nombre;
-    private int telefono;
+    int edad;
+    String nombre;
+    int telefono;
   }
 
   class Cliente extends Persona {
 
-    private int credito;
-
-    public Cliente(int credito, int edad, String nombre, int telefono) {
-        this.credito = credito;
-        this.edad = edad;
-        this.nombre = nombre;
-        this.telefono = telefono;
-    }
-
-    public int getCredito() {
-        return credito;
-    }
-
-    public void setCredito(int credito) {
-        this.credito = credito;
-    }
-
+    int credito;
     
   }
 
   class Trabajador extends Persona {
 
-    private int salario;
+    int salario;
   }
-}
+
